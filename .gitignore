@@ -1,7 +1,19 @@
 # Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[codz]
-*$py.class
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data folders (do not commit)
+data_raw/
+data_processed/
+
+# OS
+.DS_Store
 
 # C extensions
 *.so
